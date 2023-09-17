@@ -90,7 +90,7 @@ const Index = ({ project }: Props) => {
             color={"primary"}
             css={{ height: "fit-content", border: "none" }}
           >
-            Stack
+            Tech Stack
           </Badge>
           <Text span>{project.stack}</Text>
         </Flex>
@@ -102,7 +102,7 @@ const Index = ({ project }: Props) => {
           href={project.preview}
           target="_blank"
         >
-          Live preview <LinkIcon width={21} height={22} color="$primary" />
+          View Live  <LinkIcon width={21} height={22} color="$primary" />
         </Link>
 
         <Link
@@ -112,7 +112,7 @@ const Index = ({ project }: Props) => {
           href={project.github}
           target="_blank"
         >
-          Github repo <GithubIcon />
+          Github <GithubIcon />
         </Link>
       </Flex>
     </ArticleLayout>
