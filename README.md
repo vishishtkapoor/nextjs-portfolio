@@ -9,7 +9,7 @@ This is a template for NextJS and NextUI.
 
 You can see the demo here: https://portfolio-de3p.vercel.app/
 
-![Dashboard Dark Mode](./public/pic.png)
+![Dashboard Dark Mode]
 
 
 - About Section
